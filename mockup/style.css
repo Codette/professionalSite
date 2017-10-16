@@ -1,0 +1,344 @@
+/*
+Theme Name: Genine Yarborough
+Theme URI: http://genineyarborough.com
+Author: Genie Lauren
+Author URI: http://rocquemoremedia.com
+Description: Portfolio website for Genine L. Yarborough
+Version: 1.0
+*/
+
+/* Table of Contents
+ *
+ * 1.0 =Reset Styles
+ * 2.0 =HTML5 Elements
+ * 3.0 =Global Styles
+ * 4.0 =Typography
+ * 5.0 =Skin and Theme Colors
+ * 6.0 =Structure
+ * 7.0 =Specific Styles
+ * 8.0 =Animations / Transitions
+ * 9.0 =Media Queries
+ * =================================================*/
+
+/* =Reset Styles
+* =================================================*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, 
+abbr, acronym, address, big, cite, code, del, 
+dfn, img, ins, kbd, q, s, samp, small, 
+strike, strong, sub, sup, tt, var, center,
+dl, dt, dd, ol, ul, li, fieldset, form, 
+label, legend, table, caption, tbody, tfoot, 
+thead, tr, th, td, article, aside, canvas, 
+details, embed, figure, figcaption, footer, 
+header, hgroup, menu, nav, output, ruby, section, 
+summary, time, mark, audio, video {
+ 	font: 			inherit;
+	border:			0;
+ 	margin:			0;
+ 	padding:		0;
+ 	font-size:		100%;
+ 	vertical-align: baseline; 
+}
+
+/* =HTML5 Elements
+* =================================================*/
+
+article, aside, details, figcaption, 
+figure, footer, header, hgroup, 
+menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, 
+blockquote:after,
+q:before, 
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-spacing:  0;
+	border-collapse: collapse;
+}
+
+/* =Global Styles
+* =================================================*/
+
+a {
+	color: 			 #6ebcea;
+	text-decoration: none;
+
+	-webkit-transition: color 0.5s ease-in-out;
+	-moz-transition: 	color 0.5s ease-in-out;
+	-ms-transition: 	color 0.5s ease-in-out;
+	-o-transition: 		color 0.5s ease-in-out;
+	transition: 		color 0.5s ease-in-out;
+}
+
+a:hover {
+	color: #d9e2e8;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background-color: #d9e2e8;
+}
+
+::-moz-selection { 
+	background: #d9e2e8; 
+}
+
+::selection { 
+	background: #d9e2e8; 
+}
+
+::-webkit-input-placeholder {
+   color: #CCC;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #CCC;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #CCC;  
+}
+
+:-ms-input-placeholder {  
+   color: #CCC;  
+}
+
+/* =Typography
+* =================================================*/
+
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('fonts/fontawesome-webfont.eot?v=4.0.3');
+	src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'), 
+  	   url('fonts/fontawesome-webfont.woff?v=4.0.3') format('woff'), 
+  	   url('fonts/fontawesome-webfont.ttf?v=4.0.3') format('truetype'), 
+  	   url('fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.black-text {
+	color: #232323;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.cormorant {
+	font-family: 'Cormorant Garamond', serif;
+}
+
+.el-spacio {
+	letter-spacing: 1px;
+}
+
+.font-awe {
+	font-family: 'FontAwesome';
+}
+
+.gray-text {
+	color: #d9e2e8;
+}
+
+.header-text {
+	font-size: 	 5em;
+	line-height: 75px;
+}
+
+.headline {
+	font-size:   1.5em;
+	font-weight: 700;
+}
+
+.high-line {
+	line-height: 30px;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.playfair-display {
+	font-family: 'Playfair Display', serif;
+}
+
+.playfair-displaySC {
+	font-family: 'Playfair Display SC', serif;
+}
+
+.slate {
+	font-size: 2.813em;
+}
+
+.source-sans {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+/* =Skin
+* =================================================*/
+
+/**
+* #.# =Theme Colors
+*
+* The colors that will be used throughout the site for background, anchor tags, and accents.
+*
+* Main Gray   = #d9e2e8
+* Second Gray = #CCC
+* Main Black  = #232323
+*/
+
+
+
+/* =Structure
+* =================================================*/
+
+.all-padding {
+	padding: 30px;
+}
+
+.bottom-margin {
+	margin-bottom: 20px;
+}
+
+.bottom-padding {
+	padding-bottom: 20px;
+}
+
+.center-block {
+	margin: 0 auto;
+}
+
+.cf:after {
+	clear:      both; 
+	height:     0; 
+	content:    ".";  
+	display:    block; 
+	visibility: hidden;
+}
+
+.cheat {
+	margin: 0 -20px;
+}
+
+.display-block {
+	display: block;
+}
+
+.display-inline-block {
+	display: inline-block;
+}
+
+.fixed {
+	position: fixed;
+}
+
+.fixed-bg-img {
+	background-attachment: fixed;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.hrzl-margins {
+	margin-top:    20px;
+	margin-bottom: 20px;
+}
+
+.hrzl-padding {
+	padding-top:    20px;
+	padding-bottom: 20px;
+}
+
+.inline-block .inline-item {
+	display:  inline-block;
+	*display: inline;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+.left {
+	float: left;
+}
+
+.mobile {
+	display: none;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.right {
+	float: right;
+}
+
+.section-margin {
+	margin: 50px 0;
+}
+
+.section-padding {
+	padding: 50px 0;
+}
+
+.slim-padding {
+	padding: 10px;
+}
+
+.vrtl-margins {
+	margin-left:  20px;
+	margin-right: 20px;
+}
+
+.vrtl-padding {
+	padding-left:  20px;
+	padding-right: 20px;
+}
+
+.wrap {
+	width:  950px;
+	margin: 0 auto;
+}
+
+/* =Specific Styles
+* =================================================*/
+
+
+
