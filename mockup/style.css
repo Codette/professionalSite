@@ -185,20 +185,8 @@ hr {
 	font-style: italic;
 }
 
-.playfair-display {
-	font-family: 'Playfair Display', serif;
-}
-
-.playfair-displaySC {
-	font-family: 'Playfair Display SC', serif;
-}
-
 .slate {
 	font-size: 2.813em;
-}
-
-.source-sans {
-	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .underline {
@@ -217,9 +205,11 @@ hr {
 *
 * The colors that will be used throughout the site for background, anchor tags, and accents.
 *
-* Main Gray   = #d9e2e8
-* Second Gray = #CCC
-* Main Black  = #232323
+* Body white  = #fcfcfc
+* Pale pink   = #ffcccc
+* Text gray   = #69626D
+* Pale silver = #cbbeb3
+* Trim khaki  = #bcaf9c
 */
 
 
