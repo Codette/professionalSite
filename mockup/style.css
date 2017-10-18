@@ -212,6 +212,15 @@ hr {
 * Trim khaki  = #bcaf9c
 */
 
+.pink-bg{
+	background-color: #ffcccc;
+}
+
+.white-bg {
+	background-color: #fcfcfc;
+}
+
+
 
 
 /* =Structure
@@ -257,8 +266,12 @@ hr {
 	position: fixed;
 }
 
-.fixed-bg-img {
-	background-attachment: fixed;
+.full-bg-img {
+	background-size: cover;
+}
+
+.full-height {
+	min-height: 100vh;
 }
 
 .full-width {
@@ -330,5 +343,11 @@ hr {
 /* =Specific Styles
 * =================================================*/
 
+#hero {
+	background-image: url(images/hero2.jpg);
+}
 
+#slate {
+	margin: 270px 0 0 0;
+}
 
