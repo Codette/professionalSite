@@ -151,10 +151,6 @@ hr {
 	text-align: center;
 }
 
-.cormorant {
-	font-family: 'Cormorant Garamond', serif;
-}
-
 .el-spacio {
 	letter-spacing: 1px;
 }
@@ -183,6 +179,10 @@ hr {
 
 .italic {
 	font-style: italic;
+}
+
+.justify {
+	text-align: justify;
 }
 
 .slate {
@@ -344,10 +344,27 @@ hr {
 * =================================================*/
 
 #hero {
-	background-image: url(images/hero2.jpg);
+	background-image: url(images/hero-bg.jpg);
 }
 
 #slate {
 	margin: 270px 0 0 0;
 }
+
+#story {
+	background-image: url(images/section-bg2.png);
+	background-attachment: fixed;
+}
+
+#text-box {
+	width: 			  540px;
+	margin:			  10% 0 0 10%;
+	background-color: rgba(255,204,204,0.5);
+}
+
+#audio,
+#video {
+	background-image: url(images/video-bg.png);
+}
+
 
