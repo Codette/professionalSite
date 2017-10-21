@@ -378,6 +378,12 @@ nav li {
 	font-size: 4.5em;
 }
 
+#slate span {
+	width: 500px;
+	height: 140px;
+	background-image: url(images/slate.png);
+}
+
 #story {
 	background-image: url(images/section-bg2.png);
 	background-attachment: fixed;
