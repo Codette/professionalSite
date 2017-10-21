@@ -1,3 +1,4 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=845e62fc-949c-4ff1-9944-e80e74298e6e");
 /*
 Theme Name: Genine Yarborough
 Theme URI: http://genineyarborough.com
@@ -135,12 +136,26 @@ hr {
 	font-style: normal;
 }
 
+@font-face{
+	font-family: 'Born Ready W00 Regular';
+	src: url('fonts/2ccbba8d-135e-443a-b70c-04a3e4fd0b6b.eot?#iefix');
+	src: url('fonts/2ccbba8d-135e-443a-b70c-04a3e4fd0b6b.eot?#iefix') format('eot'),
+		url('fonts/1aa4413b-03d6-41b1-8a22-ef3b107e714f.woff2') format('woff2'),
+		url('fonts/b120bb48-e363-4d64-9519-befbc1d829d8.woff') format('woff'),
+		url('fonts/23a3792f-ee8e-45d3-b88a-829ca1484cd1.ttf') format('truetype'),
+		url('fonts/3aa580e2-b7ef-4a63-b395-f2769fea2a5d.svg#3aa580e2-b7ef-4a63-b395-f2769fea2a5d') format('svg');
+}
+
 .black-text {
 	color: #232323;
 }
 
 .bold {
 	font-weight: 700;
+}
+
+.born-ready {
+	font-family: 'Born Ready W00 Regular';
 }
 
 .capitalize {
@@ -153,6 +168,10 @@ hr {
 
 .el-spacio {
 	letter-spacing: 1px;
+}
+
+.fira-sans {
+	font-family: 'Fira Sans', sans-serif;
 }
 
 .font-awe {
@@ -347,8 +366,16 @@ hr {
 	background-image: url(images/hero-bg.jpg);
 }
 
+nav li {
+	font-size: 0.813em;
+}
+
 #slate {
 	margin: 270px 0 0 0;
+}
+
+#slate h1 {
+	font-size: 4.5em;
 }
 
 #story {
