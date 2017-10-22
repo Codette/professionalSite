@@ -77,8 +77,20 @@ table {
 /* =Global Styles
 * =================================================*/
 
+/**
+* #.# =Theme Colors
+*
+* The colors that will be used throughout the site for background, anchor tags, and accents.
+*
+* Body white  = #fcfcfc
+* Pale pink   = #ffcccc
+* Text gray   = #69626D
+* Pale silver = #cbbeb3
+* Trim khaki  = #bcaf9c
+*/
+
 a {
-	color: 			 #6ebcea;
+	color: 			 #69626D;
 	text-decoration: none;
 
 	-webkit-transition: color 0.5s ease-in-out;
@@ -89,7 +101,7 @@ a {
 }
 
 a:hover {
-	color: #d9e2e8;
+	color: #ffcccc;
 }
 
 hr {
@@ -99,11 +111,11 @@ hr {
 }
 
 ::-moz-selection { 
-	background: #d9e2e8; 
+	background: #ffcccc; 
 }
 
 ::selection { 
-	background: #d9e2e8; 
+	background: #ffcccc; 
 }
 
 ::-webkit-input-placeholder {
@@ -146,8 +158,8 @@ hr {
 		url('fonts/3aa580e2-b7ef-4a63-b395-f2769fea2a5d.svg#3aa580e2-b7ef-4a63-b395-f2769fea2a5d') format('svg');
 }
 
-.black-text {
-	color: #232323;
+.dark-gray-text {
+	color: #69626d;
 }
 
 .bold {
@@ -178,22 +190,8 @@ hr {
 	font-family: 'FontAwesome';
 }
 
-.gray-text {
-	color: #d9e2e8;
-}
-
-.header-text {
-	font-size: 	 5em;
-	line-height: 75px;
-}
-
-.headline {
-	font-size:   1.5em;
-	font-weight: 700;
-}
-
 .high-line {
-	line-height: 30px;
+	line-height: 25px;
 }
 
 .italic {
@@ -202,10 +200,6 @@ hr {
 
 .justify {
 	text-align: justify;
-}
-
-.slate {
-	font-size: 2.813em;
 }
 
 .underline {
@@ -219,19 +213,11 @@ hr {
 /* =Skin
 * =================================================*/
 
-/**
-* #.# =Theme Colors
-*
-* The colors that will be used throughout the site for background, anchor tags, and accents.
-*
-* Body white  = #fcfcfc
-* Pale pink   = #ffcccc
-* Text gray   = #69626D
-* Pale silver = #cbbeb3
-* Trim khaki  = #bcaf9c
-*/
+.dark-gray-bg {
+	background-color: #69626D;
+}
 
-.pink-bg{
+.pink-bg {
 	background-color: #ffcccc;
 }
 
@@ -239,7 +225,14 @@ hr {
 	background-color: #fcfcfc;
 }
 
+#hero {
+	background-image: url(images/hero-bg.jpg);
+}
 
+#story {
+	background-image: url(images/section-bg2.png);
+	background-attachment: fixed;
+}
 
 
 /* =Structure
@@ -320,6 +313,10 @@ hr {
 	float: left;
 }
 
+.max-height {
+	max-height: 25px;
+}
+
 .mobile {
 	display: none;
 }
@@ -362,42 +359,28 @@ hr {
 /* =Specific Styles
 * =================================================*/
 
-#hero {
-	background-image: url(images/hero-bg.jpg);
+nav li {
+	width: 53px;
+	font-size: 0.875em;
 }
 
-nav li {
-	font-size: 0.813em;
+nav li:hover {
+	font-family: 'Born Ready W00 Regular';
 }
 
 #slate {
-	margin: 270px 0 0 0;
-}
-
-#slate h1 {
-	font-size: 4.5em;
-}
-
-#slate span {
 	width: 500px;
-	height: 140px;
-	background-image: url(images/slate.png);
+	height: 100px;
+	margin: 270px 0 0 0;
+	background-image: url(images/slate3.png);
 }
 
-#story {
-	background-image: url(images/section-bg2.png);
-	background-attachment: fixed;
+#slide-label {
+	font-size: 2.5em;
+	letter-spacing: .25em;
 }
 
 #text-box {
-	width: 			  540px;
-	margin:			  10% 0 0 10%;
 	background-color: rgba(255,204,204,0.5);
 }
-
-#audio,
-#video {
-	background-image: url(images/video-bg.png);
-}
-
 
